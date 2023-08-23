@@ -43,5 +43,5 @@ will add all expenses to the csv file "expenses.csv"
 clear():
 clears the screen
 
-#Author
+# Author
 Ryaan Sharif
