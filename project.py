@@ -43,6 +43,7 @@ def main():
         elif action == "3":
             display_expenses()
             console.input("[yellow][italic]Press enter to go back.[/]")
+            clear()
         elif action == "4":
             edit_expense()
         elif action == "5":
@@ -57,7 +58,7 @@ def add_expense():
             "[cyan underline]Add An Expense[/]"
         )
 
-    price = float(validate_input("Price: ", amount_pattern))
+    price = float(validate_input("Price (# Only): ", amount_pattern))
     date = validate_input("Date (YYYY-MM-DD): ", date_pattern)
     description = validate_input("Description (Limit of 50 Characters): ", description_pattern)
     category = validate_input("Category (One Word): ", category_pattern)
