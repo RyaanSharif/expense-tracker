@@ -1,0 +1,3 @@
+pip install rich
+pip install DateTime
+pytest==7.1.3
